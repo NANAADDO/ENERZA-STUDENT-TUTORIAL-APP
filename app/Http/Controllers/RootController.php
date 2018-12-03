@@ -33,7 +33,7 @@ class RootController extends Controller
 
         $id =$request->course_id;
         Session::put('course_id',$id);
-       return redirect('CourseSubject/'.$id);
+       return redirect('CourseSubject');
 
     }
 
